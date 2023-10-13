@@ -1,0 +1,22 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+class CLesson
+{
+    public static void Main(string[] args)
+    {
+       //Asking For 2 number
+       Console.WriteLine("Enter 1st Number: ");
+       int num1 = Convert.ToInt32(Console.ReadLine());
+       Console.WriteLine("Enter 2nd Number: ");
+       int num2 = Convert.ToInt32(Console.ReadLine());
+       
+       
+       //Display The Condition Result
+       Console.WriteLine("The Highest number is " + Math.Max(num1 , num2) );
+       Console.WriteLine("The Lowest Number is " + Math.Min(num1, num2));
+       
+    }
+}
