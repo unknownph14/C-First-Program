@@ -1,0 +1,23 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+class CLesson
+{
+    public static void Main(string[] args)
+    {
+       //Asking For Name and Age
+       Console.WriteLine("Enter Name: ");
+       string name = Console.ReadLine();
+       Console.WriteLine("Enter Your Age: ");
+       int age = Convert.ToInt32(Console.ReadLine());
+       
+       //Condition
+       if(age >= 18){
+           Console.WriteLine("Your Eligible");
+       }else{
+           Console.WriteLine("Your Not Eligible");
+       }
+    }
+}
